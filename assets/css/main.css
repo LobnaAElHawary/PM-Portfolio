@@ -4720,3 +4720,16 @@ input, select, textarea {
 		margin-right: 10%;
 		margin-top: 17%;
 	  }
+
+	.image-container {
+		display: flex;
+		justify-content: center; /* Center images horizontally */
+	}
+	
+	.responsive-image {
+		height: 600px;
+		width: 600px; /* Set a fixed width */
+		object-fit: cover; /* Maintain aspect ratio */
+		margin: 0 10px; /* Space between images */
+		margin-bottom: 5%;
+	}
